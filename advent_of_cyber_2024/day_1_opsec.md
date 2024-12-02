@@ -1,6 +1,6 @@
 # Advent of Cyber 2024
 
-## OpSec - Operational Security
+## OPSEC - Operational Security
 
 - Protecting your persona; / identifiable infomration with the goal to not allow yourself (or an attacker to be identified)
 
