@@ -2,39 +2,41 @@
 
 ## Exercise Title: *"Maybe SOC-mas music, he thought, doesn't come from a store?"*
 
-The Day 1 exercise introduces participants to the fundamentals of a **Security Operations Center (SOC)** and its key roles and responsibilities. Below are the lessons learned:
+The Day 1 exercise introduces participants to **Operational Security (OPSEC)** principles, emphasizing the importance of protecting sensitive information from adversaries. The key lessons learned include:
 
-### 1. Understanding SOC Fundamentals
-- A SOC is a centralized unit responsible for monitoring, detecting, and responding to security incidents.
-- Key functions include:
-  - Proactive monitoring
-  - Incident detection
-  - Incident response
+### 1. Understanding Operational Security (OPSEC)
+- **Definition**: A process that identifies critical information to determine if friendly actions can be observed by adversaries and then executes measures to eliminate or reduce exploitation.
+- **Purpose**: To prevent adversaries from gaining access to sensitive information that could compromise operations.
 
-### 2. SOC Roles and Responsibilities
-- **SOC Analysts** investigate alerts, analyze logs, and escalate incidents.
-- Other SOC roles include:
-  - Team leaders
-  - Engineers
-  - Managers
-- Collaboration among these roles is critical to maintaining organizational security.
+### 2. Common OPSEC Mistakes
+- **Metadata Exposure**: Leaving identifiable metadata in files, such as author names or software versions, which can reveal information about the creator or system.
+- **Reusing Identifiers**: Using the same usernames, email addresses, or account handles across different platforms, making it easier for adversaries to link activities.
+- **Inadequate Anonymity Measures**: Failing to use VPNs or proxies, leading to exposure of IP addresses and physical locations.
 
-### 3. Importance of Monitoring Tools
-- Tools like **SIEM (Security Information and Event Management)** systems are used to:
-  - Aggregate and analyze logs.
-  - Identify potential threats.
-- SOC analysts rely on these tools to detect anomalies and investigate incidents effectively.
+### 3. Investigating Malicious Files
+- **Metadata Analysis**: Examining file metadata to uncover information about the creator or origin, which can aid in attribution.
+- **Behavioral Analysis**: Observing the actions performed by a file, such as network connections or system changes, to identify malicious intent.
 
-### 4. Practical Skills Gained
-- Participants learned to:
-  - Interact with log data.
-  - Identify suspicious activity.
-  - Understand the workflow of handling alerts in a SOC environment.
-- Hands-on exercises reinforced the significance of SOCs in an organization's security posture.
+### 4. Tracking Digital Identities
+- **Attribution Techniques**: Using clues from metadata, reused identifiers, and online activity to link malicious actions to specific individuals or groups.
+- **OPSEC in Investigations**: Understanding how adversaries' OPSEC failures can provide leads in cyber investigations.
 
-### 5. Teamwork in Cybersecurity
-- Highlighted the importance of teamwork and communication within a SOC for effective threat management.
+### 5. Enhancing Personal OPSEC
+- **Best Practices**: Regularly audit personal and organizational practices to ensure sensitive information is not inadvertently exposed.
+- **Continuous Improvement**: Stay informed about common OPSEC pitfalls and implement measures to mitigate them.
 
 ---
 
-This exercise provided foundational knowledge of SOC operations and equipped participants with essential skills to further explore cybersecurity.
+### Questions and Answers to Complete the Room
+
+1. **Looks like the song.mp3 file is not what we expected! Run "exiftool song.mp3" in your terminal to find out the author of the song. Who is the author?**  
+   - **Answer**: Tyler Ramsbey
+
+2. **The malicious PowerShell script sends stolen info to a C2 server. What is the URL of this C2 server?**  
+   - **Answer**: http://papash3ll.thm/data
+
+3. **Who is M.M? Maybe his Github profile page would provide clues?**  
+   - **Answer**: Mayor Malware
+
+4. **What is the number of commits on the GitHub repo where the issue was raised?**  
+   - **Answer**: 1
