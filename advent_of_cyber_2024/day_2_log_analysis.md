@@ -1,38 +1,44 @@
 # Lessons Learned from Advent of Cyber 2024 - Day 2
 
-## Exercise Title: *"One man's false positive is another man's potpourri"*
+## Exercise Title: *"One man's false positive is another man's potpourri."*
 
-The Day 2 exercise focuses on distinguishing between **false positives** and genuine security threats within a **Security Operations Center (SOC)**. Below are the key lessons learned:
+The Day 2 exercise focuses on the critical task of distinguishing between false positives and genuine security threats within a Security Operations Center (SOC). The key lessons learned include:
 
 ### 1. Understanding False Positives
-- **False positives** are alerts that indicate a threat where none exists.
-- They can lead to:
-  - Wasted resources.
-  - Overlooking genuine threats due to cluttered alerts.
+- **Definition**: Alerts that indicate a threat where none exists.
+- **Impact**: Can lead to wasted resources and may cause genuine threats to be overlooked.
 
 ### 2. Identifying False Positives
-- SOC analysts must scrutinize alerts to determine their validity.
-- Techniques include:
-  - Analyzing log data.
-  - Understanding normal system behavior.
-  - Recognizing anomalies.
+- **Alert Analysis**: SOC analysts must scrutinize alerts to determine their validity.
+- **Data Examination**: Involves analyzing log data, understanding normal system behavior, and recognizing anomalies.
 
 ### 3. Tools and Techniques
-- Using **Security Information and Event Management (SIEM)** systems to:
-  - Aggregate and correlate data.
-  - Provide a centralized view of alerts.
-- Applying **threat intelligence** to contextualize and validate alerts.
+- **SIEM Systems**: Utilizing Security Information and Event Management systems to aggregate and correlate data.
+- **Threat Intelligence**: Applying threat intelligence to contextualize alerts.
 
 ### 4. Impact of False Positives
-- Excessive false positives can result in **alert fatigue**, causing:
-  - Analysts to become desensitized to alerts.
-  - Potentially missing genuine threats.
-- Emphasizes the need to fine-tune detection systems for better accuracy.
+- **Alert Fatigue**: Excessive false positives can lead to alert fatigue, causing analysts to become desensitized.
+- **System Tuning**: Highlights the importance of fine-tuning detection systems to minimize false positives.
 
 ### 5. Continuous Improvement
-- Regularly update detection rules to enhance system precision.
-- Incorporate feedback and ongoing training for SOC analysts to stay effective in identifying and mitigating false positives.
+- **Detection Rules**: Regularly updating detection rules and incorporating feedback to enhance accuracy.
+- **Analyst Training**: Engaging in ongoing training to stay adept at identifying and mitigating false positives.
 
 ---
 
-By mastering these concepts, SOC analysts can prioritize genuine threats effectively and contribute to a robust cybersecurity posture.
+### Questions and Answers to Complete the Room
+
+1. **What is the name of the account causing all the failed login attempts?**  
+   - **Answer**: service_admin
+
+2. **How many failed logon attempts were observed?**  
+   - **Answer**: 6791
+
+3. **What is the IP address of Glitch?**  
+   - **Answer**: 10.0.255.1
+
+4. **When did Glitch successfully logon to ADM-01?**  
+   - **Answer**: Dec 1, 2024 08:54:39.000
+
+5. **What is the decoded command executed by Glitch to fix the systems of Wareville?**  
+   - **Answer**: Install-WindowsUpdate -AcceptAll -AutoReboot
