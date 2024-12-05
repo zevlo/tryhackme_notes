@@ -34,4 +34,13 @@ The Day 3 exercise focuses on identifying and mitigating **vulnerabilities** wit
 
 ---
 
-By understanding and addressing vulnerabilities, organizations can strengthen their security posture and reduce the risk of exploitation.
+### Questions and Answers to Complete the Room
+
+1. **Where was the web shell uploaded to?**  
+   - **Answer**: /media/images/rooms/shell.php
+
+2. **What IP address accessed the web shell?**  
+   - **Answer**: 10.11.83.34
+
+3. **What is the contents of the flag.txt?**  
+   - **Answer**: THM{Gl1tch_Was_H3r3}
