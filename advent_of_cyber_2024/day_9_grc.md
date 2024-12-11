@@ -1,4 +1,4 @@
-# Lessons Learned: Task 15 - Day 9: Nine o'clock, make GRC fun, tell no one
+# Day 9: Nine o'clock, make GRC fun, tell no one
 
 ## Overview
 This task explored Governance, Risk, and Compliance (GRC) and how these principles are applied to cybersecurity. GRC frameworks help organizations align their security goals with business objectives, identify and manage risks, and ensure compliance with regulations.
