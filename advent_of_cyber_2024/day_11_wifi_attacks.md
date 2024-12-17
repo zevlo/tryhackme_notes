@@ -1,4 +1,4 @@
-# **Task 17 - Day 11: If You'd Like to WPA, Press the Star Key!**
+# **Day 11: If You'd Like to WPA, Press the Star Key!**
 
 ## **Lessons Learned**
 
