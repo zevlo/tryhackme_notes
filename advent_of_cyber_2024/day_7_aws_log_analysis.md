@@ -1,6 +1,4 @@
-# Lessons Learned from Advent of Cyber 2024 - Day 7
-
-## Exercise Title: *"Oh, no. I'M SPEAKING IN CLOUDTRAIL!"*
+# Day 7: *"Oh, no. I'M SPEAKING IN CLOUDTRAIL!"*
 
 The Day 7 exercise focuses on utilizing **AWS CloudTrail** to monitor and investigate suspicious activity within an AWS environment. The key lessons learned include:
 
