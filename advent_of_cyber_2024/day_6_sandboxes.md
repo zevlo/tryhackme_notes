@@ -1,6 +1,4 @@
-# Lessons Learned from Advent of Cyber 2024 - Day 6
-
-## Exercise Title: *"If I can't find a nice malware to use, I'm not going."*
+# Day 6: *"If I can't find a nice malware to use, I'm not going."*
 
 The Day 6 exercise focuses on understanding **Endpoint Detection and Response (EDR)** systems and their role in identifying and mitigating malware threats. The key lessons learned include:
 
