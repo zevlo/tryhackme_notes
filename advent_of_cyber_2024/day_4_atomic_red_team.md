@@ -1,6 +1,4 @@
-# Lessons Learned from Advent of Cyber 2024 - Day 4
-
-## Exercise Title: *"I’m all atomic inside!"*
+# Day 4: *"I’m all atomic inside!"*
 
 The Day 4 exercise introduces participants to **Atomic Red Team** testing, a framework that allows security professionals to simulate adversary tactics and techniques to evaluate and improve their organization's defenses. The key lessons learned include:
 
