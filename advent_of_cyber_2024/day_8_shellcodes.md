@@ -1,6 +1,4 @@
-# Lessons Learned from Advent of Cyber 2024 - Day 8
-
-## Exercise Title: *"Shellcodes of the world, unite!"*
+# Day 8 *"Shellcodes of the world, unite!"*
 
 The Day 8 exercise focuses on understanding and utilizing **shellcode** to gain unauthorized access to systems, emphasizing the importance of recognizing and defending against such techniques. The key lessons learned include:
 
