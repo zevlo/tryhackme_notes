@@ -1,6 +1,4 @@
-# Lessons Learned from Advent of Cyber 2024 - Day 5
-
-## Exercise Title: *"SOC-mas XX-what-ee?"*
+# Day 5: *"SOC-mas XX-what-ee?"*
 
 The Day 5 exercise focuses on understanding and mitigating **Cross-Site Scripting (XSS)** vulnerabilities, a prevalent security issue in web applications. The key lessons learned include:
 
