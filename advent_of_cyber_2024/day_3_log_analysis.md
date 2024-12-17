@@ -1,6 +1,4 @@
-# Lessons Learned from Advent of Cyber 2024 - Day 3
-
-## Exercise Title: *"Even if I wanted to go, their vulnerabilities wouldn't allow it."*
+# Day 3: *"Even if I wanted to go, their vulnerabilities wouldn't allow it."*
 
 The Day 3 exercise focuses on identifying and mitigating **vulnerabilities** within systems to prevent exploitation by malicious actors. The key lessons learned include:
 
