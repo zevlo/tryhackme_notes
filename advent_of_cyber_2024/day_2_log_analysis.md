@@ -1,6 +1,4 @@
-# Lessons Learned from Advent of Cyber 2024 - Day 2
-
-## Exercise Title: *"One man's false positive is another man's potpourri."*
+# Day 2: *"One man's false positive is another man's potpourri."*
 
 The Day 2 exercise focuses on the critical task of distinguishing between false positives and genuine security threats within a Security Operations Center (SOC). The key lessons learned include:
 
