@@ -1,4 +1,4 @@
-# **Task 18 - Day 12: If I Can’t Steal Their Money, I’ll Steal Their Joy!**
+# **Day 12: If I Can’t Steal Their Money, I’ll Steal Their Joy!**
 
 ## **Lessons Learned**
 
