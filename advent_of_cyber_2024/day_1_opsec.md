@@ -1,6 +1,4 @@
-# Lessons Learned from Advent of Cyber 2024 - Day 1
-
-## Exercise Title: *"Maybe SOC-mas music, he thought, doesn't come from a store?"*
+# Day 1: *"Maybe SOC-mas music, he thought, doesn't come from a store?"*
 
 The Day 1 exercise introduces participants to **Operational Security (OPSEC)** principles, emphasizing the importance of protecting sensitive information from adversaries. The key lessons learned include:
 
