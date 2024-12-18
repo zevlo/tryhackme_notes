@@ -1,23 +1,35 @@
-# Day 17: He analyzed and analyzed till his analyzer was sore!
+# **Day 17: He Analyzed and Analyzed Till His Analyzer Was Sore!**
 
-## Lessons Learned
+## **Lessons Learned**
 
-1. **Log Analysis**
-   - Understanding how to parse and interpret log files is crucial for identifying security incidents. Logs provide detailed records of system activities, which can be analyzed to detect anomalies and unauthorized actions.
+### 1. **Log Analysis**
+   - Log files are crucial for understanding system activity and identifying malicious actions.
+   - Analyzing logs can reveal patterns, such as unauthorized access or attempts to delete evidence.
 
-2. **Identifying Unauthorized Access**
-   - By scrutinizing logs, one can pinpoint successful logins and correlate them with user activities to detect potential unauthorized access.
+### 2. **Event Correlation**
+   - **Correlating Events:** By analyzing logs, you can link specific events, such as login attempts, to subsequent actions like file deletions or privilege escalations.
+   - Tools like SIEMs (Security Information and Event Management systems) streamline this process.
 
-3. **Incident Response**
-   - Analyzing logs is a fundamental aspect of incident response, enabling security professionals to trace malicious actions, understand the scope of a breach, and implement measures to prevent future incidents.
+### 3. **Session Tracking**
+   - **Session IDs:** Unique identifiers assigned to user sessions are critical for tracking actions performed by specific users.
 
-## Questions and Answers
+### 4. **Malicious Activity Detection**
+   - Regular monitoring of logs is necessary to detect and mitigate malicious activity.
+   - Evidence of attackers, such as deleted CCTV footage, can be uncovered through thorough log analysis.
 
-1. **Extract all the events from the cctv_feed logs. How many logs were captured associated with the successful login?**
-   - **Answer:** 642
+### 5. **Incident Response**
+   - Logs provide essential evidence for post-incident investigations and can guide response strategies to prevent recurrence.
 
-2. **What is the Session_id associated with the attacker who deleted the recording?**
-   - **Answer:** rij5uu4gt204q0d3eb7jj86okt
+---
 
-3. **What is the name of the attacker found in the logs, who deleted the CCTV footage?**
-   - **Answer:** mmalware
+## **Questions and Answers**
+
+1. **Extract all the events from the cctv_feed logs. How many logs were captured associated with the successful login?**  
+   `642`
+
+2. **What is the Session_id associated with the attacker who deleted the recording?**  
+   `rij5uu4gt204q0d3eb7jj86okt`
+
+3. **What is the name of the attacker found in the logs, who deleted the CCTV footage?**  
+   `mmalware`
+
